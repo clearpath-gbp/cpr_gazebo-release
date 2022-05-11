@@ -1,0 +1,12 @@
+Source: ros-melodic-cpr-inspection-gazebo
+Section: misc
+Priority: optional
+Maintainer: Chris Iverach-Brereton <civerachb@clearpathrobotics.com>
+Build-Depends: debhelper (>= 9.0.0), ros-melodic-catkin
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-melodic-cpr-inspection-gazebo
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-melodic-gazebo-ros, ros-melodic-heron-gazebo, ros-melodic-husky-gazebo, ros-melodic-jackal-gazebo, ros-melodic-uuv-gazebo-worlds, ros-melodic-warthog-gazebo
+Description: The cpr_inspection_gazebo package

@@ -1,0 +1,12 @@
+Source: ros-melodic-cpr-office-gazebo
+Section: misc
+Priority: optional
+Maintainer: Chris Iverach-Brereton <civerachb@clearpathrobotics.com>
+Build-Depends: debhelper (>= 9.0.0), ros-melodic-catkin
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-melodic-cpr-office-gazebo
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-melodic-dingo-gazebo, ros-melodic-gazebo-ros, ros-melodic-husky-gazebo, ros-melodic-jackal-gazebo, ros-melodic-ridgeback-gazebo
+Description: The cpr_office_gazebo package

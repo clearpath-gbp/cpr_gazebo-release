@@ -1,0 +1,12 @@
+Source: ros-melodic-cpr-obstacle-gazebo
+Section: misc
+Priority: optional
+Maintainer: Jose Mastrangelo <jmastrangelo@clearpathrobotics.com>
+Build-Depends: debhelper (>= 9.0.0), ros-melodic-catkin, ros-melodic-roslaunch
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-melodic-cpr-obstacle-gazebo
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-melodic-controller-manager, ros-melodic-dingo-gazebo, ros-melodic-gazebo-plugins, ros-melodic-gazebo-ros, ros-melodic-gazebo-ros-control, ros-melodic-hector-gazebo-plugins, ros-melodic-husky-gazebo, ros-melodic-jackal-gazebo, ros-melodic-pointcloud-to-laserscan, ros-melodic-rostopic, ros-melodic-warthog-gazebo
+Description: The cpr_obstacle_gazebo package

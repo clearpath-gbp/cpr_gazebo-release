@@ -2,9 +2,15 @@
 Changelog for package cpr_inspection_gazebo
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-0.1.0 (2022-05-11)
+0.2.1 (2022-05-11)
+------------------
+* Disable the water physics; UUV does not appear to be released for Noetic yet. Will re-enable later if possible
+* Contributors: Chris Iverach-Brereton
+
+0.2.0 (2022-05-11)
 ------------------
 * Re-add the entire pipeline; it looks in a previous revision a good chunk of it was accidentally deleted
+* Add boxer, remove moose and heron.
 * Squashed commit of real-world-coords branch.  Add real-world coordinates to all worlds, including elevation
 * Merge pull request `#17 <https://github.com/clearpathrobotics/cpr_gazebo/issues/17>`_ from clearpathrobotics/orchard
   Add the Orchard world, change maintainership since Dave left.

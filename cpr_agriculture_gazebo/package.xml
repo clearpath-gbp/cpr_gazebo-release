@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <package format="2">
   <name>cpr_agriculture_gazebo</name>
-  <version>0.1.0</version>
+  <version>0.2.1</version>
   <description>The cpr_agriculture_gazebo package</description>
 
   <maintainer email="civerachb@clearpathrobotics.com">Chris Iverach-Brereton</maintainer>
@@ -14,7 +14,6 @@
   <exec_depend>husky_gazebo</exec_depend>
   <exec_depend>jackal_gazebo</exec_depend>
   <exec_depend>warthog_gazebo</exec_depend>
-  <exec_depend>moose_gazebo</exec_depend>
 
   <export>
   </export>

@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <package format="2">
   <name>cpr_inspection_gazebo</name>
-  <version>0.1.0</version>
+  <version>0.2.1</version>
   <description>The cpr_inspection_gazebo package</description>
 
   <maintainer email="civerachb@clearpathrobotics.com">Chris Iverach-Brereton</maintainer>
@@ -14,11 +14,16 @@
   <exec_depend>husky_gazebo</exec_depend>
   <exec_depend>jackal_gazebo</exec_depend>
   <exec_depend>warthog_gazebo</exec_depend>
-  <exec_depend>heron_gazebo</exec_depend>
+
+  <!--
+    UUV simulation does not appear to be released for Noetic; If it ever is
+    we can re-enable this. But for now, just turn off the water
   <exec_depend>uuv_gazebo_worlds</exec_depend>
 
   <export>
     <gazebo_ros gazebo_media_path="${prefix}"
                 gazebo_model_path="${prefix}/models"/>
   </export>
+  -->
+  <export></export>
 </package>

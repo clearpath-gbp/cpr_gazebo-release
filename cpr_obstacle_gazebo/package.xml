@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <package>
   <name>cpr_obstacle_gazebo</name>
-  <version>0.1.0</version>
+  <version>0.2.1</version>
   <description>The cpr_obstacle_gazebo package</description>
 
   <maintainer email="jmastrangelo@clearpathrobotics.com">Jose Mastrangelo</maintainer>
@@ -20,6 +20,7 @@
   <run_depend>pointcloud_to_laserscan</run_depend>
   <run_depend>rostopic</run_depend>
 
+  <run_depend>boxer_gazebo</run_depend>
   <run_depend>dingo_gazebo</run_depend>
   <run_depend>husky_gazebo</run_depend>
   <run_depend>jackal_gazebo</run_depend>

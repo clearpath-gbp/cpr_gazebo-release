@@ -32,6 +32,9 @@ Office | Office Construction
 ------ | -------------------
 <a href="https://console.aws.amazon.com/cloudformation/home#/stacks/create/review?region=us-east-2&templateURL=https://cpr-gazebo-public.s3.us-east-2.amazonaws.com/CPR-Kinetic-Simulation-Stack.yaml&stackName=cpr-office-gazebo&param_SimWorld=cpr_office_gazebo&param_SimLaunch=office_world.launch&param_RoboticPlatform=dingo"><img src="launch-stack.png"></a> | <a href="https://console.aws.amazon.com/cloudformation/home#/stacks/create/review?region=us-east-2&templateURL=https://cpr-gazebo-public.s3.us-east-2.amazonaws.com/CPR-Kinetic-Simulation-Stack.yaml&stackName=cpr-office-construction-gazebo&param_SimWorld=cpr_office_gazebo&param_SimLaunch=office_construction_world.launch&param_RoboticPlatform=dingo"><img src="launch-stack.png"></a>
 
+### Boxer
+<img src="https://clearpathrobotics.com/assets/renders/Boxer_VR.283/Boxer_VR.283/0_9.jpg" width="20%">
+
 ## Complete Launching
 
 ```roslaunch cpr_office_gazebo office_world.launch```
@@ -73,6 +76,7 @@ Supported values for the platform variable are:
 * jackal
 * ridgeback
 * dingo
+* boxer
 
 The spawn location for the robot can be specified by setting the `x`, `y`, `z`, and `yaw` variables.  The Z value should be set
 to be above ground-level; otherwise the robot may fall through the ground plane as the environment renders.

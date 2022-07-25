@@ -1,1 +1,1 @@
-{"trim": "", "base": "1477bf7", "trimbase": "", "parent": "debian/noetic/cpr_inspection_gazebo", "previous": "24ccc92"}
+{"base": "0c827ff", "parent": "debian/noetic/cpr_inspection_gazebo", "previous": "17eadc0", "trim": "", "trimbase": ""}

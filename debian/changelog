@@ -1,0 +1,29 @@
+ros-noetic-gazebo-race-modules (0.2.2-1focal) focal; urgency=high
+
+
+
+ -- Chris Iverach-Brereton <civerachb@clearpathrobotics.com>  Mon, 25 Jul 2022 04:00:00 -0000
+
+ros-noetic-gazebo-race-modules (0.2.1-1focal) focal; urgency=high
+
+
+
+ -- Chris Iverach-Brereton <civerachb@clearpathrobotics.com>  Wed, 11 May 2022 04:00:00 -0000
+
+ros-noetic-gazebo-race-modules (0.2.0-1focal) focal; urgency=high
+
+  * Merge pull request #17 <https://github.com/clearpathrobotics/cpr_gazebo/issues/17> from clearpathrobotics/orchard
+    Add the Orchard world, change maintainership since Dave left.
+  * Update the author and maintainer tags
+  * Merge pull request #6 <https://github.com/clearpathrobotics/cpr_gazebo/issues/6> from clearpathrobotics/RPSW-510
+    Physics and Geometry Fixes
+  * Added default friction to all collisions
+  * Add license files to the docs, add documentation for the race modules
+  * Merge branch 'master' into heron
+  * Added installs in cmake
+  * Renamed gazebo_race_modules to cpr_race_modules.  Added office and inspections worlds.  New worlds still need clutter added
+  * Contributors: Chris Iverach-Brereton, Dave Niewinski, Tony Baltovski
+
+ -- Chris Iverach-Brereton <civerachb@clearpathrobotics.com>  Wed, 11 May 2022 04:00:00 -0000
+
+

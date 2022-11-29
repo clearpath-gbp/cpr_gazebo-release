@@ -29,11 +29,11 @@
         </clouds>
       </sky>
     </scene>
-    <!-- Origin placed near a real-world orchard north of Waterloo, ON, Canada -->
+    <!-- Origin placed on a random olive orchard somewhere in Greece -->
     <spherical_coordinates>
       <surface_model>EARTH_WGS84</surface_model>
-      <latitude_deg>43.595619</latitude_deg>
-      <longitude_deg>-80.499874</longitude_deg>
+      <latitude_deg>39.512152</latitude_deg>
+      <longitude_deg>22.426669</longitude_deg>
       <elevation>344</elevation>
       <heading_deg>0</heading_deg>
     </spherical_coordinates>
@@ -44,7 +44,7 @@
     </state>
     <gui fullscreen='0'>
       <camera name='user_camera'>
-        <pose>60.748043 11.090854 20.814493 0.00 0.591644 2.788590</pose>
+        <pose>-22.383711 -8.878892 23.248871 0.0 0.779645 1.336590</pose>
         <view_controller>orbit</view_controller>
       </camera>
     </gui>

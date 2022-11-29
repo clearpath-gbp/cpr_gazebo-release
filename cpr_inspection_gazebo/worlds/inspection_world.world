@@ -91,10 +91,10 @@
     <plugin name="sc_interface" filename="libuuv_sc_ros_interface_plugin.so"/>
     -->
 
-    <!-- Origin placed somewhere in Algonquin Park, ON, Canada  -->
+    <!-- Origin placed in northern Alberta, Canada  -->
     <spherical_coordinates>
-      <latitude_deg>45.579262</latitude_deg>
-      <longitude_deg>-78.750237</longitude_deg>
+      <latitude_deg>57.0271155</latitude_deg>
+      <longitude_deg>-115.426770</longitude_deg>
       <elevation>600</elevation>
       <heading_deg>0</heading_deg>
     </spherical_coordinates>
@@ -102,7 +102,7 @@
     <!-- Point the camera so the robot's in-frame -->
     <gui fullscreen='0'>
       <camera name='user_camera'>
-        <pose>22.956600 0.353438 8.717550 0.0 0.411643 -2.922991</pose>
+        <pose>25.719423 -7.832449 7.892787 0.0 0.383643 -2.874995</pose>
         <view_controller>orbit</view_controller>
       </camera>
     </gui>

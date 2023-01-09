@@ -1,0 +1,12 @@
+Source: ros-noetic-cpr-agriculture-gazebo
+Section: misc
+Priority: optional
+Maintainer: Chris Iverach-Brereton <civerachb@clearpathrobotics.com>
+Build-Depends: debhelper (>= 9.0.0), ros-noetic-catkin
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-noetic-cpr-agriculture-gazebo
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-noetic-cpr-accessories-gazebo, ros-noetic-gazebo-ros, ros-noetic-husky-gazebo, ros-noetic-jackal-gazebo, ros-noetic-warthog-gazebo
+Description: The cpr_agriculture_gazebo package

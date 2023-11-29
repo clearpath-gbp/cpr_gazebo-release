@@ -1,0 +1,17 @@
+ros-noetic-cpr-empty-gazebo (0.2.8-1focal) focal; urgency=high
+
+  * Fix the install targets to omit directories that do not exist
+  * Revert default dock position values
+  * Enable dock in empty world
+  * Contributors: Chris Iverach-Brereton, Emiliano Borghi, José Mastrangelo
+
+ -- Chris Iverach-Brereton <civerachb@clearpathrobotics.com>  Wed, 29 Nov 2023 05:00:00 -0000
+
+ros-noetic-cpr-empty-gazebo (0.2.7-1focal) focal; urgency=high
+
+  * Initial commit of the new empty world
+  * Contributors: Chris Iverach-Brereton
+
+ -- Chris Iverach-Brereton <civerachb@clearpathrobotics.com>  Mon, 16 Jan 2023 05:00:00 -0000
+
+

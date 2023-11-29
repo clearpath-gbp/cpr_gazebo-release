@@ -2,6 +2,9 @@
 Changelog for package cpr_orchard_gazebo
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+0.2.8 (2023-11-29)
+------------------
+
 0.2.7 (2023-01-16)
 ------------------
 * Fix a typo in almost every readme, add the new empty world with support for all platforms
